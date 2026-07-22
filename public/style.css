@@ -1,0 +1,275 @@
+:root {
+  --safe: #1a7f37;
+  --safe-bg: #eafbef;
+  --caution: #9a6700;
+  --caution-bg: #fff8e5;
+  --avoid: #b3261e;
+  --avoid-bg: #fdecea;
+  --unknown: #57606a;
+  --unknown-bg: #f0f1f3;
+  --border: #d8dde3;
+  --text: #1c2128;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: #fafbfc;
+  max-width: 480px;
+  margin-inline: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  padding: 24px 20px 12px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.tagline {
+  margin: 4px 0 0;
+  color: #57606a;
+  font-size: 0.95rem;
+}
+
+.app-main {
+  flex: 1;
+  padding: 0 20px 20px;
+}
+
+.mode-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.mode-btn.active {
+  background: var(--text);
+  color: #fff;
+  font-weight: 600;
+}
+
+.scan-panel {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+}
+
+#reader {
+  width: 100%;
+  min-height: 0;
+}
+
+.scan-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  font: inherit;
+}
+
+#start-scan-btn,
+#stop-scan-btn,
+.manual-row button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--text);
+  background: var(--text);
+  color: #fff;
+  cursor: pointer;
+}
+
+#stop-scan-btn {
+  background: #fff;
+  color: var(--text);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.manual-form {
+  margin-top: 16px;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+
+.manual-form label {
+  display: block;
+  font-size: 0.85rem;
+  color: #57606a;
+  margin-bottom: 6px;
+}
+
+.manual-row {
+  display: flex;
+  gap: 8px;
+}
+
+.manual-row input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid var(--border);
+}
+
+.card.loading {
+  text-align: center;
+  color: #57606a;
+}
+
+.verdict-safe {
+  background: var(--safe-bg);
+  border-color: var(--safe);
+}
+
+.verdict-caution {
+  background: var(--caution-bg);
+  border-color: var(--caution);
+}
+
+.verdict-avoid {
+  background: var(--avoid-bg);
+  border-color: var(--avoid);
+}
+
+.verdict-unknown {
+  background: var(--unknown-bg);
+  border-color: var(--unknown);
+}
+
+.product-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.product-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.product-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.product-brand {
+  margin: 2px 0 0;
+  font-size: 0.85rem;
+  color: #57606a;
+}
+
+.verdict-badge {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.verdict-mode {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 0.85rem;
+  color: #57606a;
+}
+
+.ingredient-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ingredient-item {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.ingredient-name {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.ingredient-verdict {
+  float: right;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ingredient-item.verdict-safe .ingredient-verdict {
+  color: var(--safe);
+}
+
+.ingredient-item.verdict-caution .ingredient-verdict {
+  color: var(--caution);
+}
+
+.ingredient-item.verdict-avoid .ingredient-verdict {
+  color: var(--avoid);
+}
+
+.ingredient-reason {
+  margin: 6px 0 0;
+  font-size: 0.88rem;
+  color: #444c56;
+  clear: both;
+}
+
+.app-footer {
+  padding: 16px 20px 24px;
+  text-align: center;
+}
+
+.app-footer p {
+  font-size: 0.78rem;
+  color: #6e7781;
+  margin: 0;
+}

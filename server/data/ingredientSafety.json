@@ -1,0 +1,410 @@
+[
+  {
+    "id": "alcohol",
+    "aliases": ["ethanol", "wine", "beer", "liquor", "spirits"],
+    "pregnancy": { "verdict": "avoid", "reason": "No amount of alcohol is known to be safe during pregnancy; it crosses the placenta directly." },
+    "nursing": { "verdict": "avoid", "reason": "Passes into breast milk; wait until fully metabolized (roughly 2 hours per standard drink) before nursing." }
+  },
+  {
+    "id": "caffeine",
+    "aliases": ["guarana", "coffee extract", "green tea extract"],
+    "pregnancy": { "verdict": "caution", "reason": "Generally limited to under 200mg/day (about one 12oz coffee); higher intake is linked to increased miscarriage/low birth weight risk." },
+    "nursing": { "verdict": "caution", "reason": "Small amounts pass into milk; moderate intake is usually fine but watch for infant jitteriness or poor sleep." }
+  },
+  {
+    "id": "quinine",
+    "aliases": ["tonic water"],
+    "pregnancy": { "verdict": "avoid", "reason": "Can stimulate uterine contractions at higher doses; tonic water amounts are low but caution is still advised." },
+    "nursing": { "verdict": "caution", "reason": "Passes into milk in small amounts; occasional tonic water is generally considered low-risk." }
+  },
+  {
+    "id": "aspartame",
+    "aliases": ["nutrasweet", "equal"],
+    "pregnancy": { "verdict": "caution", "reason": "Considered safe in moderation by most regulators, except for those with phenylketonuria (PKU)." },
+    "nursing": { "verdict": "caution", "reason": "Same PKU caveat applies; otherwise considered low-risk in moderation." }
+  },
+  {
+    "id": "saccharin",
+    "aliases": ["sweet-n-low"],
+    "pregnancy": { "verdict": "caution", "reason": "Crosses the placenta and clears slowly from fetal tissue; most guidelines suggest moderation or avoidance." },
+    "nursing": { "verdict": "caution", "reason": "Passes into breast milk and is cleared slowly by infants; best used sparingly." }
+  },
+  {
+    "id": "sodium-cyclamate",
+    "aliases": ["cyclamate"],
+    "pregnancy": { "verdict": "caution", "reason": "Limited safety data in pregnancy; moderation advised." },
+    "nursing": { "verdict": "caution", "reason": "Limited safety data during nursing; moderation advised." }
+  },
+  {
+    "id": "acesulfame-potassium",
+    "aliases": ["acesulfame k", "ace-k"],
+    "pregnancy": { "verdict": "caution", "reason": "Approved by regulators but crosses the placenta; moderate intake recommended." },
+    "nursing": { "verdict": "caution", "reason": "Passes into breast milk in small amounts; moderate intake recommended." }
+  },
+  {
+    "id": "sucralose",
+    "aliases": ["splenda"],
+    "pregnancy": { "verdict": "safe", "reason": "Not metabolized by the body and considered safe in moderation during pregnancy." },
+    "nursing": { "verdict": "safe", "reason": "Minimal transfer into breast milk; considered safe in moderation." }
+  },
+  {
+    "id": "monosodium-glutamate",
+    "aliases": ["msg", "e621"],
+    "pregnancy": { "verdict": "safe", "reason": "Considered safe in typical food amounts; no established link to adverse pregnancy outcomes." },
+    "nursing": { "verdict": "safe", "reason": "Considered safe in typical food amounts while nursing." }
+  },
+  {
+    "id": "licorice-extract",
+    "aliases": ["glycyrrhiza", "glycyrrhizin", "licorice root"],
+    "pregnancy": { "verdict": "avoid", "reason": "High intake of glycyrrhizin has been linked to preterm birth and effects on fetal development." },
+    "nursing": { "verdict": "caution", "reason": "Can reduce milk supply and passes into milk in small amounts; best limited." }
+  },
+  {
+    "id": "raw-milk",
+    "aliases": ["unpasteurized milk", "unpasteurised milk"],
+    "pregnancy": { "verdict": "avoid", "reason": "Unpasteurized dairy can carry Listeria, which poses a serious risk to the fetus." },
+    "nursing": { "verdict": "avoid", "reason": "Listeria risk applies to the nursing parent's health regardless of feeding status." }
+  },
+  {
+    "id": "soft-cheese",
+    "aliases": ["brie", "camembert", "blue cheese", "queso fresco", "feta"],
+    "pregnancy": { "verdict": "caution", "reason": "Safe if made with pasteurized milk; unpasteurized soft cheeses carry a Listeria risk." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing risk once the cheese itself is confirmed pasteurized." }
+  },
+  {
+    "id": "pate",
+    "aliases": ["liver pate", "foie gras"],
+    "pregnancy": { "verdict": "avoid", "reason": "Risk of Listeria plus very high vitamin A content, both of concern in pregnancy." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing restriction; eat in moderation as with any liver product." }
+  },
+  {
+    "id": "deli-meat",
+    "aliases": ["cold cuts", "lunch meat", "cured meat"],
+    "pregnancy": { "verdict": "caution", "reason": "Listeria risk unless heated until steaming hot before eating." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing restriction beyond normal food safety." }
+  },
+  {
+    "id": "raw-sprouts",
+    "aliases": ["alfalfa sprouts", "bean sprouts", "raw sprouts"],
+    "pregnancy": { "verdict": "avoid", "reason": "Raw sprouts carry a notable risk of Salmonella and E. coli contamination." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing restriction beyond normal food safety." }
+  },
+  {
+    "id": "raw-fish",
+    "aliases": ["sushi", "sashimi", "raw seafood"],
+    "pregnancy": { "verdict": "caution", "reason": "Risk of parasites/bacteria; choose reputable sources and consider mercury content of the fish species." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing restriction beyond normal food safety and mercury guidance." }
+  },
+  {
+    "id": "shark",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "One of the highest-mercury fish; mercury accumulates in fetal tissue and can affect brain development." },
+    "nursing": { "verdict": "avoid", "reason": "High mercury content can transfer into breast milk." }
+  },
+  {
+    "id": "swordfish",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "High mercury content poses a risk to fetal neurological development." },
+    "nursing": { "verdict": "avoid", "reason": "High mercury content can transfer into breast milk." }
+  },
+  {
+    "id": "king-mackerel",
+    "aliases": ["king mackerel"],
+    "pregnancy": { "verdict": "avoid", "reason": "High mercury content poses a risk to fetal neurological development." },
+    "nursing": { "verdict": "avoid", "reason": "High mercury content can transfer into breast milk." }
+  },
+  {
+    "id": "tilefish",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "High mercury content poses a risk to fetal neurological development." },
+    "nursing": { "verdict": "avoid", "reason": "High mercury content can transfer into breast milk." }
+  },
+  {
+    "id": "tuna",
+    "aliases": ["albacore tuna", "canned tuna"],
+    "pregnancy": { "verdict": "caution", "reason": "Moderate mercury content; most guidelines suggest limiting to 1-2 servings per week, less for albacore." },
+    "nursing": { "verdict": "caution", "reason": "Moderate mercury content; limit servings as with pregnancy guidance." }
+  },
+  {
+    "id": "raw-egg",
+    "aliases": ["runny egg", "unpasteurized egg"],
+    "pregnancy": { "verdict": "avoid", "reason": "Risk of Salmonella; choose pasteurized eggs or cook thoroughly." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing restriction beyond normal food safety." }
+  },
+  {
+    "id": "unpasteurized-juice",
+    "aliases": ["raw juice", "unpasteurised juice"],
+    "pregnancy": { "verdict": "avoid", "reason": "Risk of E. coli or Salmonella contamination without pasteurization." },
+    "nursing": { "verdict": "caution", "reason": "Same contamination risk applies, though the concern is for the nursing parent rather than the infant directly." }
+  },
+  {
+    "id": "vitamin-a-palmitate",
+    "aliases": ["retinyl palmitate", "vitamin a palmitate"],
+    "pregnancy": { "verdict": "avoid", "reason": "High-dose preformed vitamin A is linked to birth defects; avoid supplements/products exceeding recommended limits." },
+    "nursing": { "verdict": "caution", "reason": "Topical use is generally lower risk than oral supplementation; consult a provider for high-dose products." }
+  },
+  {
+    "id": "retinol",
+    "aliases": ["retinyl acetate"],
+    "pregnancy": { "verdict": "avoid", "reason": "A form of vitamin A associated with birth defect risk at high doses; most obstetric guidance recommends avoiding retinoid skincare during pregnancy." },
+    "nursing": { "verdict": "caution", "reason": "Limited data on topical absorption into milk; many providers advise caution." }
+  },
+  {
+    "id": "tretinoin",
+    "aliases": ["retinoic acid", "isotretinoin", "accutane"],
+    "pregnancy": { "verdict": "avoid", "reason": "Strongly linked to severe birth defects; prescription retinoids are contraindicated in pregnancy." },
+    "nursing": { "verdict": "avoid", "reason": "Insufficient safety data; typically avoided while nursing." }
+  },
+  {
+    "id": "salicylic-acid",
+    "aliases": ["beta hydroxy acid", "bha acid"],
+    "pregnancy": { "verdict": "caution", "reason": "Low-concentration topical use is generally considered acceptable; oral/high-dose salicylates should be avoided." },
+    "nursing": { "verdict": "caution", "reason": "Low-concentration topical use is generally considered acceptable; avoid high oral doses." }
+  },
+  {
+    "id": "hydroquinone",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "Systemic absorption is higher than other skin-lightening agents; most guidance recommends avoiding during pregnancy." },
+    "nursing": { "verdict": "caution", "reason": "Limited safety data on transfer into breast milk." }
+  },
+  {
+    "id": "benzoyl-peroxide",
+    "aliases": [],
+    "pregnancy": { "verdict": "safe", "reason": "Minimal systemic absorption through skin; generally considered acceptable for acne treatment." },
+    "nursing": { "verdict": "safe", "reason": "Minimal systemic absorption; generally considered acceptable." }
+  },
+  {
+    "id": "formaldehyde",
+    "aliases": ["formalin"],
+    "pregnancy": { "verdict": "avoid", "reason": "A known reproductive toxicant; avoid products releasing formaldehyde (some hair treatments, nail products)." },
+    "nursing": { "verdict": "avoid", "reason": "Avoid exposure; can be absorbed through skin and inhalation." }
+  },
+  {
+    "id": "toluene",
+    "aliases": ["nail polish solvent"],
+    "pregnancy": { "verdict": "avoid", "reason": "Linked to developmental toxicity; found in some nail products, best avoided or used with ventilation." },
+    "nursing": { "verdict": "avoid", "reason": "Inhalation exposure can affect the nursing parent's health; use with caution and ventilation." }
+  },
+  {
+    "id": "phthalates",
+    "aliases": ["dibutyl phthalate", "dbp"],
+    "pregnancy": { "verdict": "caution", "reason": "Suspected endocrine disruptor with some studies linking exposure to developmental effects; minimize where possible." },
+    "nursing": { "verdict": "caution", "reason": "Suspected endocrine disruptor; minimize exposure where possible." }
+  },
+  {
+    "id": "parabens",
+    "aliases": ["methylparaben", "propylparaben", "butylparaben"],
+    "pregnancy": { "verdict": "caution", "reason": "Weak endocrine-disrupting potential suspected; evidence is limited but some choose to minimize exposure." },
+    "nursing": { "verdict": "caution", "reason": "Same limited-evidence caution applies while nursing." }
+  },
+  {
+    "id": "oxybenzone",
+    "aliases": ["benzophenone-3"],
+    "pregnancy": { "verdict": "caution", "reason": "A chemical sunscreen filter with some endocrine-disruption concerns; mineral sunscreens are often preferred during pregnancy." },
+    "nursing": { "verdict": "caution", "reason": "Same endocrine-disruption caution applies while nursing." }
+  },
+  {
+    "id": "pennyroyal-oil",
+    "aliases": ["pennyroyal"],
+    "pregnancy": { "verdict": "avoid", "reason": "A known abortifacient herb; can cause severe toxicity and miscarriage." },
+    "nursing": { "verdict": "avoid", "reason": "Toxic to infants; never use while nursing." }
+  },
+  {
+    "id": "blue-cohosh",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "Can stimulate uterine contractions and has been linked to serious cardiovascular effects in newborns when used to induce labor." },
+    "nursing": { "verdict": "avoid", "reason": "Insufficient safety data; avoid while nursing." }
+  },
+  {
+    "id": "mugwort",
+    "aliases": ["wormwood", "artemisia"],
+    "pregnancy": { "verdict": "avoid", "reason": "Traditionally used to induce menstruation/labor; can stimulate uterine contractions." },
+    "nursing": { "verdict": "avoid", "reason": "Insufficient safety data; avoid while nursing." }
+  },
+  {
+    "id": "dong-quai",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "A uterine stimulant traditionally avoided during pregnancy due to miscarriage risk." },
+    "nursing": { "verdict": "avoid", "reason": "Insufficient safety data; avoid while nursing." }
+  },
+  {
+    "id": "saw-palmetto",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "Hormonal effects make it unsuitable during pregnancy." },
+    "nursing": { "verdict": "avoid", "reason": "Hormonal effects make it unsuitable while nursing." }
+  },
+  {
+    "id": "echinacea",
+    "aliases": [],
+    "pregnancy": { "verdict": "caution", "reason": "Generally short-term use appears low-risk, but data is limited; check with a provider." },
+    "nursing": { "verdict": "caution", "reason": "Limited safety data; use with provider guidance." }
+  },
+  {
+    "id": "ginseng",
+    "aliases": ["panax ginseng"],
+    "pregnancy": { "verdict": "caution", "reason": "Some animal studies raise concern about fetal effects; limited human data." },
+    "nursing": { "verdict": "caution", "reason": "Limited safety data during nursing." }
+  },
+  {
+    "id": "black-cohosh",
+    "aliases": [],
+    "pregnancy": { "verdict": "caution", "reason": "Sometimes used near term to encourage labor; avoid earlier in pregnancy without medical guidance." },
+    "nursing": { "verdict": "avoid", "reason": "Insufficient safety data; avoid while nursing." }
+  },
+  {
+    "id": "st-johns-wort",
+    "aliases": ["hypericum"],
+    "pregnancy": { "verdict": "avoid", "reason": "Interacts with many medications and has limited pregnancy safety data." },
+    "nursing": { "verdict": "caution", "reason": "May reduce milk supply and has limited infant safety data." }
+  },
+  {
+    "id": "yohimbe",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "Can cause dangerous blood pressure changes; unsafe during pregnancy." },
+    "nursing": { "verdict": "avoid", "reason": "Unsafe stimulant effects; avoid while nursing." }
+  },
+  {
+    "id": "kava",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "Linked to liver toxicity and sedation; unsafe during pregnancy." },
+    "nursing": { "verdict": "avoid", "reason": "Sedative effects and liver toxicity risk make it unsafe while nursing." }
+  },
+  {
+    "id": "comfrey",
+    "aliases": [],
+    "pregnancy": { "verdict": "avoid", "reason": "Contains pyrrolizidine alkaloids that are toxic to the liver and potentially the fetus." },
+    "nursing": { "verdict": "avoid", "reason": "Liver-toxic compounds can transfer into breast milk." }
+  },
+  {
+    "id": "senna",
+    "aliases": ["senna leaf"],
+    "pregnancy": { "verdict": "caution", "reason": "Occasional short-term use for constipation is generally considered acceptable; avoid prolonged use." },
+    "nursing": { "verdict": "safe", "reason": "Considered compatible with nursing in typical laxative doses." }
+  },
+  {
+    "id": "aloe-latex",
+    "aliases": ["aloe vera juice", "whole leaf aloe"],
+    "pregnancy": { "verdict": "avoid", "reason": "Oral aloe latex is a strong laxative that can stimulate uterine contractions." },
+    "nursing": { "verdict": "avoid", "reason": "Can pass into milk and cause infant GI upset." }
+  },
+  {
+    "id": "niacin-high-dose",
+    "aliases": ["nicotinic acid supplement"],
+    "pregnancy": { "verdict": "caution", "reason": "High supplemental doses (beyond prenatal vitamin levels) aren't well studied in pregnancy." },
+    "nursing": { "verdict": "caution", "reason": "High supplemental doses aren't well studied during nursing." }
+  },
+  {
+    "id": "vitamin-e-high-dose",
+    "aliases": ["tocopherol supplement"],
+    "pregnancy": { "verdict": "caution", "reason": "High-dose supplementation beyond prenatal levels isn't well studied and offers no proven benefit." },
+    "nursing": { "verdict": "caution", "reason": "High-dose supplementation isn't well studied during nursing." }
+  },
+  {
+    "id": "iron",
+    "aliases": ["ferrous sulfate", "ferrous fumarate"],
+    "pregnancy": { "verdict": "safe", "reason": "Commonly recommended during pregnancy to prevent anemia; follow prenatal dosing guidance." },
+    "nursing": { "verdict": "safe", "reason": "Commonly recommended and considered safe during nursing." }
+  },
+  {
+    "id": "folic-acid",
+    "aliases": ["folate", "vitamin b9"],
+    "pregnancy": { "verdict": "safe", "reason": "Recommended before and during pregnancy to reduce neural tube defect risk." },
+    "nursing": { "verdict": "safe", "reason": "Recommended and considered safe during nursing." }
+  },
+  {
+    "id": "dha",
+    "aliases": ["omega-3", "fish oil", "docosahexaenoic acid"],
+    "pregnancy": { "verdict": "safe", "reason": "Supports fetal brain development; commonly recommended in moderate doses." },
+    "nursing": { "verdict": "safe", "reason": "Supports infant brain development via breast milk; commonly recommended." }
+  },
+  {
+    "id": "probiotics",
+    "aliases": ["lactobacillus", "bifidobacterium"],
+    "pregnancy": { "verdict": "safe", "reason": "Generally considered safe and may support digestive health during pregnancy." },
+    "nursing": { "verdict": "safe", "reason": "Generally considered safe during nursing." }
+  },
+  {
+    "id": "xylitol",
+    "aliases": [],
+    "pregnancy": { "verdict": "safe", "reason": "A sugar alcohol generally considered safe in food amounts during pregnancy." },
+    "nursing": { "verdict": "safe", "reason": "Generally considered safe in food amounts during nursing." }
+  },
+  {
+    "id": "sorbitol",
+    "aliases": [],
+    "pregnancy": { "verdict": "caution", "reason": "Generally safe but can cause digestive upset in larger amounts." },
+    "nursing": { "verdict": "caution", "reason": "Generally safe but can cause digestive upset in larger amounts." }
+  },
+  {
+    "id": "sodium-benzoate",
+    "aliases": ["e211"],
+    "pregnancy": { "verdict": "safe", "reason": "A widely used preservative considered safe (GRAS) in typical food amounts." },
+    "nursing": { "verdict": "safe", "reason": "Considered safe in typical food amounts during nursing." }
+  },
+  {
+    "id": "potassium-sorbate",
+    "aliases": ["e202"],
+    "pregnancy": { "verdict": "safe", "reason": "A widely used preservative considered safe (GRAS) in typical food amounts." },
+    "nursing": { "verdict": "safe", "reason": "Considered safe in typical food amounts during nursing." }
+  },
+  {
+    "id": "carrageenan",
+    "aliases": ["e407"],
+    "pregnancy": { "verdict": "caution", "reason": "Some evidence of GI irritation at high intake; food-grade amounts are generally considered low risk." },
+    "nursing": { "verdict": "caution", "reason": "Same low-level GI concern applies during nursing." }
+  },
+  {
+    "id": "palm-oil",
+    "aliases": [],
+    "pregnancy": { "verdict": "safe", "reason": "A common food fat with no specific pregnancy safety concern beyond general nutrition." },
+    "nursing": { "verdict": "safe", "reason": "No specific nursing safety concern." }
+  },
+  {
+    "id": "soya-lecithin",
+    "aliases": ["soy lecithin", "sunflower lecithin"],
+    "pregnancy": { "verdict": "safe", "reason": "A common food emulsifier with no known pregnancy safety concern." },
+    "nursing": { "verdict": "safe", "reason": "No known nursing safety concern." }
+  },
+  {
+    "id": "sodium-nitrite",
+    "aliases": ["e250", "sodium nitrate", "e251"],
+    "pregnancy": { "verdict": "caution", "reason": "Found in cured/processed meats; moderate intake is typically fine, but combine with the deli-meat heating advice above." },
+    "nursing": { "verdict": "caution", "reason": "Moderate intake in processed meats is typically considered acceptable." }
+  },
+  {
+    "id": "bha-bht",
+    "aliases": ["butylated hydroxyanisole", "butylated hydroxytoluene", "e320", "e321"],
+    "pregnancy": { "verdict": "caution", "reason": "Synthetic antioxidants with some animal-study concerns; typical food amounts are considered low risk by regulators." },
+    "nursing": { "verdict": "caution", "reason": "Typical food amounts are considered low risk by regulators." }
+  },
+  {
+    "id": "tartrazine",
+    "aliases": ["yellow 5", "e102"],
+    "pregnancy": { "verdict": "caution", "reason": "An artificial dye linked to hyperactivity concerns in some studies; not specifically hazardous in pregnancy but often minimized." },
+    "nursing": { "verdict": "caution", "reason": "Same general caution as other artificial dyes." }
+  },
+  {
+    "id": "cbd",
+    "aliases": ["cannabidiol", "hemp extract"],
+    "pregnancy": { "verdict": "avoid", "reason": "Insufficient safety data on fetal development; major health bodies recommend avoiding during pregnancy." },
+    "nursing": { "verdict": "avoid", "reason": "Can transfer into breast milk; insufficient infant safety data." }
+  },
+  {
+    "id": "thc",
+    "aliases": ["cannabis", "marijuana"],
+    "pregnancy": { "verdict": "avoid", "reason": "Linked to effects on fetal brain development; recommended to avoid entirely during pregnancy." },
+    "nursing": { "verdict": "avoid", "reason": "Transfers into breast milk and can affect infant development." }
+  },
+  {
+    "id": "nicotine",
+    "aliases": ["tobacco", "vape"],
+    "pregnancy": { "verdict": "avoid", "reason": "A well-established cause of pregnancy complications and developmental harm." },
+    "nursing": { "verdict": "avoid", "reason": "Transfers into breast milk and can affect infant sleep and health." }
+  },
+  {
+    "id": "ibuprofen",
+    "aliases": ["nsaid"],
+    "pregnancy": { "verdict": "caution", "reason": "Generally avoided, especially in the third trimester, due to risks to fetal circulation; consult a provider." },
+    "nursing": { "verdict": "safe", "reason": "Considered compatible with nursing at standard doses; minimal transfer into milk." }
+  }
+]

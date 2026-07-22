@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Expecta — Product Safety Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Expecta</h1>
+    <p class="tagline">Scan a product, know if it's safe.</p>
+  </header>
+
+  <main class="app-main">
+    <div class="mode-toggle" role="radiogroup" aria-label="Mode">
+      <button type="button" class="mode-btn active" data-mode="pregnancy" aria-pressed="true">Pregnancy</button>
+      <button type="button" class="mode-btn" data-mode="nursing" aria-pressed="false">Nursing</button>
+    </div>
+
+    <section class="scan-panel">
+      <div id="reader"></div>
+      <div class="scan-controls">
+        <button type="button" id="start-scan-btn">Start camera scan</button>
+        <button type="button" id="stop-scan-btn" class="hidden">Stop scan</button>
+      </div>
+
+      <form id="manual-form" class="manual-form">
+        <label for="barcode-input">Or enter a barcode</label>
+        <div class="manual-row">
+          <input type="text" id="barcode-input" name="barcode" placeholder="e.g. 3017620422003" inputmode="numeric" pattern="\d{6,14}" required />
+          <button type="submit">Look up</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="results" class="results hidden" aria-live="polite"></section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Hackathon demo. Safety data is hand-curated and non-exhaustive — not medical advice. Always consult a healthcare provider.</p>
+  </footer>
+
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

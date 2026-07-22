@@ -1,0 +1,13 @@
+{
+  "name": "expecta",
+  "version": "1.0.0",
+  "description": "Pregnancy/nursing product safety scanner - Cursor Hackathon",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
